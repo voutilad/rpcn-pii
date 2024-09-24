@@ -1,0 +1,3 @@
+[submodule "rp-connect-python"]
+	path = rp-connect-python
+	url = https://github.com/voutilad/rp-connect-python
