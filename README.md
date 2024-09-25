@@ -1,5 +1,12 @@
 # PII Redaction with Redpanda Connect & Microsoft Presidio
 
+<div align="center">
+  <img src="./pii.jpeg" height="35%" width="60%"
+    alt="A redpanda & a python redacting a document together."
+    style="padding: 20px"
+  >
+</div>
+
 [Redpanda Connect](https://docs.redpanda.com/redpanda-connect/) is great for
 data integration and transformation.
 
