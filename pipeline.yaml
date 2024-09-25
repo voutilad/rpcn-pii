@@ -1,0 +1,22 @@
+input:
+  stdin: {}
+
+pipeline:
+  processors:
+    - python:
+        script: |
+          import pii
+
+          text = content().decode()
+          result = pii.anonymize(text)
+
+          root.text = result.text
+          root.items = [i.to_dict() for i in result.items]
+
+output:
+  stdout: {}
+
+logger:
+  level: OFF
+http:
+  enabled: false
