@@ -1,9 +1,11 @@
 # PII Redaction with Redpanda Connect & Microsoft Presidio
 
-Redpanda Connect is great for data integration and transformation.
+[Redpanda Connect](https://docs.redpanda.com/redpanda-connect/) is great for
+data integration and transformation.
 
-Microsoft Presidio is well designed for enhancing Python applications with
-NLP, ML, and heuristic-based approaches to PII detection and redaction.
+[Microsoft Presidio](https://microsoft.github.io/presidio/) is well designed
+for enhancing Python applications with NLP, ML, and heuristic-based approaches
+to PII detection and redaction.
 
 What if we put the two together?
 
